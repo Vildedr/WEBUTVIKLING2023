@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1,0"
+        <meta name="viewport" content="width=device-width, initial-scale=1,0">
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css" type="text/css">
         <title>Forside</title>
     </head>
     <body>
+        <!--sånn skriver man kommentarer i html-->
         <header>
             <nav>
                 <span>
                     <a href="index.html">Logo</a>
                 </span>
                 <ul>
-                    <li><a href="about.html">about</a></li>
+                    <li><a href="#about-section">about</a></li>
                     <li><a href="#">subscribe</a></li>
                     <li><a href="#">contact</a></li>
                 </ul>
@@ -20,5 +22,56 @@
             <h1>Hallo world!</h1>
             <p>Slagord</p>
         </header>
+        <main>
+            <section>
+                <h2>Latest news</h2>
+                <article>
+                    <img src="img/cat-8197577_640.jpg" alt="grå katt som koser seg">
+                    <h3>Grå pus</h3>
+                    <p>Product management breakout fastworks we don't want to boil the ocean if you're not hurting you're not winning, for Bob called an all-hands this afternoon vec, yet low engagement, nor when does this sunset?</p>
+                    <a href="#" class="read-more-btn">Les mer</a>
+                </article>
+                <article>
+                    <img src="img/turtle-8105993_640.jpg" alt="En kul skilpadde som dukker opp i havoverflaten">
+                    <h3>En skilpadde</h3>
+                    <p>Five-year strategic plan can you ballpark the cost per unit for me, overcome key issues to meet key milestones, nor pushback, but after I ran into Helen at a restaurant.</p>
+                    <a href="#" class="read-more-btn">Les mer</a>
+                </article>
+                <article>
+                    <img src="img/willow-warbler-8071472_640.jpg" alt="En liten pippipp">
+                    <h3>En liten pippipp</h3>
+                    <p>Prioritize these line items zoom meeting at 2:30 today this is not a video game.</p>
+                    <a href="#" class="read-more-btn">Les mer</a>
+                </article>
+            </section>
+        </main>
+        <section id="about-section">
+            <div id="pynt">
+
+            </div>
+            <h2>About</h2>
+            <p>Where do we stand on the latest client ask meeting assassin, yet we've got kpis for that, nor (let's not try to) boil the ocean (here/there/everywhere) get six alpha pups in here for a focus group don't over think it. Quick win but what's the real problem we're trying to solve here?. What do you feel you would bring to the table if you were hired for this position can we take this offline move the needle, but we need to aspirationalise our offerings. Pixel pushing digital literacy you gotta smoke test your hypothesis anti-pattern ensure to follow requirements when developing solutions, and mobile friendly this vendor is incompetent .</p>
+        </section>
+        <section id="subscribe">
+            <h3>Subscribe</h3>
+            <form>
+                <label for="email-signup">Email for newsletter sign-up</label>
+                <input type="text" id="email-signup">
+                <input type="submit" value="Sign up">
+            </form>
+        </section>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">subscribe</a></li>
+                </ul>
+            </nav>
+            <ul id="social-icons">
+                <li>f</li>
+                <li>i</li>
+                <li>p</li>
+            </ul>
+        </footer>
     </body>
 </html>
